@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header{
+  height:50px;
+  background-color:#FF9A4B;    /*背景色：オレンジ*/
+}
+
+.main{
+  width:960px;
+  margin:50px auto;
+  display: flex;
+}
+
+.main-box{
+  width:300px;
+  padding:10px;
+  position:relative;
+  background-color: #EEE;
+}
+
+
+.main-box:nth-child(2){
+  margin-right:30px;
+  margin-left:30px;
+}
+
+.main-image1{
+  height:150px;
+  background-image: url(img/flow01.png);
+  background-size:cover;
+  background-position:bottom;
+}
+
+.main-image2{
+  height:150px;
+  background-image: url(img/flow02.png);
+  background-size:cover;
+  background-position:bottom;
+}
+
+.main-image3{
+  height:150px;
+  background-image: url(img/flow03.png);
+  background-size:cover;
+  background-position:bottom;
+}
+
+
+
+.main-item{
+  color:#FFF;
+  background-color:#FF9A4B;
+  position:absolute;
+  top:0;
+  left:0;
+}
+
+.main-title{
+  margin:15px 0px 5px 0px;
+}
+
+
+
+footer{
+  height:50px;
+  background-color:#AAA;
+}
+
